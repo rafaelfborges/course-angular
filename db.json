@@ -109,6 +109,26 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "genero": "Aventura",
       "id": 11
+    },
+    {
+      "titulo": "Mistério no Mediterrâneo",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BNTA2YTI5YjUtZWI4Zi00NWQ5LWFiYmEtOTBmNTUyNDAwNjllXkEyXkFqcGdeQXVyNjIzNzM4NzA@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2019-06-14T03:00:00.000Z",
+      "descricao": "A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage, but end up getting framed and on the run for the death of an elderly billionaire.",
+      "nota": 6,
+      "urlIMDb": "https://www.imdb.com/title/tt1618434/",
+      "genero": "Comédia",
+      "id": 12
+    },
+    {
+      "titulo": "Formula 1: Drive to Survive",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMzVkMGU0YWMtOWQxMC00MjFhLTg1NjAtMDFlZTZlYzJlMjlhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR4,0,182,268_AL_.jpg",
+      "dtLancamento": "2019-02-28T03:00:00.000Z",
+      "descricao": "Docuseries following the 2018 FIA Formula One World Championship.",
+      "nota": 8.6,
+      "urlIMDb": "https://www.imdb.com/title/tt8289930/",
+      "genero": "Ação",
+      "id": 13
     }
   ]
 }
