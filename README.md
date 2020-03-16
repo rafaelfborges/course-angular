@@ -1,25 +1,44 @@
-# Curso Intermediário de Angular - Digital Innovation One
+# Minha Lista de Filmes
 
-Esse curso foi feito para a plataforma [Digital Innovation One](https://digitalinnovation.one/)
+Projeto desenvolvido no curso de Angular Intermediário da [Digital Innovation One](https://digitalinnovation.one/). Constiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos cursos de outros usuários.
 
-O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos cursos de outros usuários.
+<details>
+  <summary>Clique para ver uma preview do projeto.</summary>
+  
+  ## Preview
+  1. Tela de listagem de filmes
+  ![Minha Lista de Filmes - Home](/demo/preview-home.png)
+
+2. Tela de cadastro de filmes
+   ![Minha Lista de Filmes - Cadastro](/demo/preview-cadastro.png)
+
+3. Filtros de pesquisa
+   ![Minha Lista de Filmes - Pesquisa](/demo/preview-pesquisa.png)
+   </details>
 
 ## Instalação
 
-1. clone o repositório `git clone git@github.com:RenanRB/curso-angular.git`
-2. Entre no projeto e instale as dependencias `npm install`
-
-## Ambiente Local
-
-Execute `ng serve` para que o projeto suba localmente. Acesse a url `http://localhost:4200/`. O projeto já está com reload automático conforme as alterações que você realizar no código
+```sh
+$ git clone https://github.com/rafaelfborges/course-angular.git
+$ yarn install
+```
 
 ## Simulando o Back-end
 
-Execute `npm install -g json-server` para instalar globalmente o servidor json. Após a instalação entre na pasta do projeto e execute `json-server --watch db.json`, com isso um servidor será inicializado na url `http://localhost:3000/`, após a inicialização sera possível realizar requisições http.
+Esse projeto utiliza o JSON Server para simular um backend. Para instalar e executar, digite:
 
-## Gerando componente
+```sh
+$ yarn global add json-serve
+$ json-server --watch db.json
+```
 
-Execute `ng generate component nome-do-componente` para criar um novo componente. Você também pode usuar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Um servidor será inicializado na url `http://localhost:3000/`, após a inicialização sera possível realizar requisições http.
+
+## Executando a aplicação
+
+```sh
+$ ng serve
+```
 
 ## Build
 
